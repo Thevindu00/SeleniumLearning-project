@@ -23,9 +23,9 @@ public class TextBoxTesting {
     @Test
     public void testTextBox(){
         WebElement textbox01 = driver.findElement(By.id("j_idt88:name"));
-        textbox01.sendKeys("Thevindu rathnayake");
+        textbox01.sendKeys("helow Cinderellaaa");
 
-        driver.findElement(By.id("j_idt88:j_idt91")).sendKeys(" Indial");
+        driver.findElement(By.id("j_idt88:j_idt91")).sendKeys(" India");
 
         boolean textboxstatus  = driver.findElement(By.id("j_idt88:j_idt93")).isEnabled();
         System.out.println("text box is enabled :" + textboxstatus);
